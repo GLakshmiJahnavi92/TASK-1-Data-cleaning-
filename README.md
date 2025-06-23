@@ -1,40 +1,45 @@
-#Task 1 – Data Cleaning and Preprocessing
+# Task 1 – Data Cleaning and Preparation
 
-## Dataset: Mall Customer Segmentation Data
+## 📊 Dataset: Mall Customer Segmentation Data
 
-This task involved cleaning and preparing a raw dataset of mall customers using Python (Pandas). The goal was to ensure the dataset was consistent, free of errors, and ready for analysis.
+This task focused on cleaning and preparing the mall customer dataset using Python and Pandas. The objective was to make the data structured, clean, and ready for analysis.
 
+---
 
-##  Dataset Overview
+## 📁 Dataset Summary
 
-- **Rows**: 200
-- **Columns**: 5
-- **Original Format**: CSV
-- **Cleaned File**: `cleaned_mall_customers.csv`
+- **Total Rows**: 200  
+- **Total Columns**: 5  
+- **Input Format**: CSV  
+- **Cleaned Output**: `cleaned_mall_customers.csv`
 
+---
 
-## Cleaning Summary
+## 🧹 Data Cleaning Steps
 
-- Checked for missing values → **0 found**
-- Removed duplicates → **0 found**
-- Standardized column names to lowercase with underscores
-- Ensured correct data types:
-  - `customerid`: int
-  - `gender`: object (string)
-  - `age`: int
-  - `annual_income_(k$)`: int
-  - `spending_score_(1-100)`: int
+- ✅ Checked for missing values → **None found**
+- ✅ Checked for duplicates → **None found**
+- ✅ Renamed columns → Standardized to lowercase with underscores
+- ✅ Verified data types:
+  - `customerid` → Integer
+  - `gender` → String (object)
+  - `age` → Integer
+  - `annual_income_(k$)` → Integer
+  - `spending_score_(1-100)` → Integer
 
+---
 
+## 📦 Files Included
 
-##  Files Included
-- `Mall_Customers.csv`-Original dataset
-- `cleaned_mall_customers.csv` – Final cleaned dataset
-- `task1.ipynb` – Jupyter notebook with step-by-step cleaning
-- `README.md` – Summary of task and steps performed
- 
-## Tools Used
+- `Mall_Customers.csv` – Original raw dataset  
+- `cleaned_mall_customers.csv` – Cleaned dataset  
+- `task1.ipynb` – Jupyter notebook with step-by-step cleaning process  
+- `README.md` – Description of the task and work done  
 
-- Python 3
-- Pandas Library
+---
+
+## 🛠️ Tools Used
+
+- Python 3  
+- Pandas Library  
 - Google Colab
